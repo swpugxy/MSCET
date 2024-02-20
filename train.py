@@ -28,7 +28,6 @@ import model
 
 def get_args_parser():
     parser = argparse.ArgumentParser('MSCET training and evaluation script', add_help=False)
-    # ... [其他参数解析部分不变]
     parser.add_argument('--batch-size', default=128, type=int)
     parser.add_argument('--epochs', default=400, type=int)
 
